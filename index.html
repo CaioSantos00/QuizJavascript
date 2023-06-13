@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+   <div id="boxPrincipal">
+    <br>
+    <span id="nQuest"></span>
+    <div id="mostraPergunta"></div>
+    <div id="divButtons">
+        <button class="btns" onclick="verificaResposta(true)">Verdadeiro</button>
+        <button class="btns" onclick="verificaResposta(false)">Falso</button>
+    </div>
+    <div id="divInfo">
+    <div id="msg">Você finalizou o quiz</div>
+    <button id="reiniciarBtn" onclick="reiniciar()">Reiniciar</button>
+    </div>
+    <div id="respDiv">
+        <div id="mostraSolucao"></div>
+        <button id="btnProximo"></button>
+    </div>
+    </div>
+</body>
+</html>

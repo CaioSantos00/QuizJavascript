@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#boxPrincipal {
+  margin: 10vh auto;
+  padding: 3vh;
+  border-radius: 6px;
+  background-color: #383a3b;
+  width: 35vw;
+}
+
+#divButtons {
+  display: grid;
+  align-items: center;
+  margin: 25px;
+}
+
+.btns {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(0, 255, 106);
+  margin: 3px 0px;
+}
+.btns:hover {
+  box-shadow: 0px 0px 10px rgb(0, 255, 106);
+  transition: 0.5s;
+}
+
+#mostraPergunta {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(0, 255, 106);
+  border: 2px solid rgba(0, 255, 106, 0.575);
+  text-align: center;
+  margin-bottom: 1.5vh;
+}
+
+#btnProximo {
+  width: 100px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(0, 255, 106);
+  display: none;
+}
+#btnProximo:hover {
+  box-shadow: 0px 0px 10px rgb(0, 255, 106);
+  transition: 0.5s;
+}
+
+#respDiv {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+}
+
+#mostraSolucao {
+  width: 100%;
+  margin-left: 4%;
+}
+
+#reiniciarBtn {
+  display: block;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(0, 255, 106);
+  margin: 8px 0px;
+  width: 100%;
+}
+
+#divInfo {
+  display: none;
+  text-align: center;
+}
+#divInfo:hover {
+  box-shadow: 0px 0px 10px rgb(0, 255, 106);
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */
