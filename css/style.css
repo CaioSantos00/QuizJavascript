@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #f0f87c;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
@@ -10,9 +10,9 @@ body {
 
 #boxPrincipal {
   margin: 10vh auto;
-  padding: 3vh;
+  padding: 1vh;
   border-radius: 6px;
-  background-color: #383a3b;
+  background-color: #1A5D1A;
   width: 60%;
 }
 
@@ -28,19 +28,28 @@ body {
   padding: 5px;
   border: none;
   border-radius: 3px;
-  background-color: rgb(0, 255, 106);
   margin: 3px 0px;
 }
-.btns:hover {
-  box-shadow: 0px 0px 10px rgb(0, 255, 106);
+
+#verda {
+  background-color: rgb(0, 255, 0);
+}
+#verda:hover {
+  box-shadow: 0px 0px 15px rgb(0, 255, 0);
+  transition: 0.5s;
+}
+
+#falso {
+  background-color: red;
+}
+#falso:hover {
+  box-shadow: 0px 0px 15px rgb(255, 0, 0);
   transition: 0.5s;
 }
 
 #mostraPergunta {
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgb(0, 255, 106);
-  border: 2px solid rgba(0, 255, 106, 0.575);
   text-align: center;
   margin-bottom: 1.5vh;
 }
@@ -52,11 +61,11 @@ body {
   padding: 5px;
   border: none;
   border-radius: 3px;
-  background-color: rgb(0, 255, 106);
+  background-color: rgb(0, 255, 0);
   display: none;
 }
 #btnProximo:hover {
-  box-shadow: 0px 0px 10px rgb(0, 255, 106);
+  box-shadow: 0px 0px 10px rgb(0, 255, 0);
   transition: 0.5s;
 }
 
@@ -78,18 +87,23 @@ body {
   padding: 5px;
   border: none;
   border-radius: 3px;
-  background-color: rgb(0, 255, 106);
+  background-color: red;
   margin: 8px 0px;
   width: 100%;
+}
+#reiniciarBtn:hover {
+  box-shadow: 0px 0px 10px rgb(255, 0, 0);
+  transition: 0.5s;
 }
 
 #divInfo {
   display: none;
   text-align: center;
 }
-#divInfo:hover {
-  box-shadow: 0px 0px 10px rgb(0, 255, 106);
-  transition: 0.5s;
+
+.divCash {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */

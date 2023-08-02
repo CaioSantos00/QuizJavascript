@@ -8,24 +8,24 @@ let msg = document.getElementById('msg')
 let contador = 0
 let arrayPergunta = [
     {
-        pergunta: ' O Monte Everest é a montanha mais alta do mundo.',
+        pergunta: 'É importante economizar dinheiro.',
         resposta: true
     },
     {
-        pergunta: 'O rio Amazonas é o rio mais longo do mundo.',
-        resposta: true
-    },
-    {
-        pergunta: 'A Grande Muralha da China pode ser vista do espaço.',
+        pergunta: 'Gastar todo o dinheiro que você ganha é uma boa ideia.',
         resposta: false
     },
     {
-        pergunta: 'O deserto do Saara é o maior deserto do mundo.',
+        pergunta: 'É melhor guardar o dinheiro em casa do que em um banco.',
+        resposta: false
+    },
+    {
+        pergunta: ' É importante comparar preços antes de comprar algo. ',
         resposta: true
     },
     {
-        pergunta: 'A Estátua da Liberdade foi um presente da França para os Estados Unidos.',
-        resposta: true
+        pergunta: 'É bom emprestar dinheiro para amigos sempre que eles pedem.',
+        resposta: false
     },
 ]
 
@@ -39,7 +39,7 @@ function reiniciar() {
 }
 function verificaResposta(resp) {
     if (arrayPergunta[contador].resposta === resp) {
-        mostraSolucao.innerText = 'Você acertou'
+        mostraSolucao.innerText = 'Você acertou!!'
         btnPro.style.display = 'block'
         btnPro.innerText = 'Próxima'
         btnPro.onclick = function proximaQuest() {
